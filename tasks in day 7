@@ -1,0 +1,26 @@
+
+**oops methods 
+
+class person{ 
+    firstName="lakshmi";
+    personName() {
+        return "This is my name " + this.firstName;
+    }
+}
+ 
+const per1 = new person();
+console.log(per1.personName());
+
+**this constructor methods
+
+class person{ 
+    constructor(name){
+        this.firstName = name;
+    }
+    personName() {
+        return "This is my name " + this.firstName;
+    }
+}
+ 
+const per1 = new person("arul");
+console.log(per1.personName());
